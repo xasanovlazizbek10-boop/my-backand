@@ -4,8 +4,10 @@
 (loglar, level, tanga, almaz, hero’lar, tarix) har bir kirishda tiklanadi. Qo‘shimcha ravishda
 **jonli (odamlar) turniri**, **yashirin admin panel** va **Telegram orqali almaz sotish** qo‘shildi.
 
-> **Papka tuzilishi:** Desktop’dagi `anime-arena-top/` ichida `fronted/` (sayt) va `backand/`
-> (shu backend) bor. Backend statik fayllarni `../fronted` dan beradi.
+> **Bu repo — backend-only.** Frontend alohida `fronted/` papkasida joylashtiriladi.
+> Backend statik fayllarni `../fronted` dan beradi; u papka bo‘lmasa `/` 404 qaytaradi,
+> lekin `/api/...` ishlaydi. Alohida hostingda frontendning `API_BASE` qiymatini shu
+> backend URL’iga o‘zgartiring.
 
 - **0 tashqi dependency** — faqat Node.js ichki modullari (`node:http`, `node:sqlite`, `node:crypto`).
 - **SQLite** — baza birinchi ishga tushishda avtomatik yaratiladi.
@@ -20,7 +22,7 @@
 ## 1. Ishga tushirish
 
 ```powershell
-cd C:\Users\PC\OneDrive\Desktop\anime-arena-top\backand
+cd C:\Users\PC\OneDrive\Desktop\backand
 npm start
 ```
 
@@ -62,17 +64,17 @@ Har bir o‘zgarish (xarid, level, turnir yakuni, sozlama) 700 ms debounce bilan
 
 ### Admin hisobi
 
-`xasanovlazizbek10@gmail.com` Gmail’i **band qilingan**. Faqat shu parol bilan ro‘yxatdan
-o‘tish/kirish mumkin:
+`xasanovlazizbek10@gmail.com` Gmail’i **band qilingan**. Faqat `ADMIN_PASSWORD` env’da
+o‘rnatilgan parol bilan ro‘yxatdan o‘tish/kirish mumkin:
 
 ```text
 Gmail:  xasanovlazizbek10@gmail.com
-Parol:  richer10101$
+Parol:  <ADMIN_PASSWORD> (env orqali o‘rnatiladi)
 ```
 
 Bu hisob bilan kirilganda o‘yin avtomatik **Admin panelga** o‘tadi va faqat admin ko‘radigan
-qo‘shimcha menyu paydo bo‘ladi. Parolni o‘zgartirish uchun `ADMIN_PASSWORD` env o‘zgaruvchisini
-bering (pastga qarang). Boshqa hech kim bu Gmail’ni boshqa parol bilan ro‘yxatdan o‘tkaza olmaydi.
+qo‘shimcha menyu paydo bo‘ladi. Boshqa hech kim bu Gmail’ni boshqa parol bilan ro‘yxatdan
+o‘tkaza olmaydi. Kodda default parol yo‘q — `ADMIN_PASSWORD` majburiy.
 
 ---
 
@@ -271,7 +273,7 @@ Batafsil: `src/app.js` dagi `ROUTES` jadvali.
 | `PORT` | `8787` | HTTP port |
 | `DB_PATH` | `data/anime-arena.db` | SQLite fayl |
 | `ADMIN_EMAIL` | `xasanovlazizbek10@gmail.com` | Band qilingan admin Gmail |
-| `ADMIN_PASSWORD` | `richer10101$` | Admin parol |
+| `ADMIN_PASSWORD` | — (majburiy) | Admin parol |
 | `LIVE_TOURNAMENT_SIZE` | `16` | Jonli turnir sig‘imi |
 | `LIVE_REST_MS` | `60000` | Janglar orasidagi tanaffus |
 | `LIVE_CYCLE_MS` | `3600000` | Keyingi turnir oralig‘i |

@@ -1,0 +1,39 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "anime-arena-top",
+  "main": "src/index.js",
+  "compatibility_date": "2025-09-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "../../fronted",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "anime-arena-db",
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "triggers": {
+    "crons": ["* * * * *"]
+  },
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "ADMIN_EMAIL": "xasanovlazizbek10@gmail.com",
+    "SESSION_TTL_HOURS": "720",
+    "LIVE_TOURNAMENT_SIZE": "16",
+    "LIVE_PRIZE_COINS": "30000",
+    "LIVE_PRIZE_DIAMONDS": "10",
+    "LIVE_REST_MS": "60000",
+    "LIVE_FIGHT_MIN_MS": "18000",
+    "LIVE_FIGHT_MAX_MS": "28000",
+    "LIVE_CYCLE_MS": "3600000",
+    "LIVE_REGISTRATION_MS": "3600000",
+    "LIVE_MIN_PARTICIPANTS": "2"
+  }
+}

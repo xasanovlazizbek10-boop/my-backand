@@ -1,0 +1,24 @@
+{
+  "name": "anime-arena-server",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Anime Arena 2 — zero-dependency SQLite backend with cloud saves, live people tournaments and an admin panel",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "extract": "node tools/extract-catalog.js",
+    "test": "node --test tests/"
+  },
+  "keywords": [
+    "anime-arena",
+    "game-backend",
+    "sqlite",
+    "rest-api"
+  ],
+  "license": "UNLICENSED"
+}

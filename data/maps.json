@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "name": "Anime Arena catalogue",
+    "version": 1,
+    "extractedAt": "2026-11-07T15:54:07.448Z",
+    "source": "C:\\Users\\PC\\OneDrive\\Desktop\\anime-arena2.html",
+    "sourceBytes": 473426,
+    "counts": {
+      "heroes": 124,
+      "purchasableHeroes": 122,
+      "tiers": 7,
+      "ranks": 7,
+      "maps": 10,
+      "monsters": 12
+    },
+    "kind": "maps"
+  },
+  "maps": [
+    {
+      "id": "sakura",
+      "name": "Tsukihana — Oyli Sakura ibodatxonasi",
+      "description": "Oy nuri, sakura yaproqlari, suv akslari, torii darvozasi va yonib turgan fonuslar.",
+      "price": 3500,
+      "rankRequired": 0,
+      "rankReward": false,
+      "preview": "background:radial-gradient(circle at 78% 20%,#f8e6cb 0 12%,transparent 13%),radial-gradient(circle at 20% 20%,#d48cb1 0 18%,transparent 19%),linear-gradient(150deg,#152343,#42315c 60%,#214c61);box-shadow:0 0 20px #a77db744,inset 0 0 10px #f3bad14d"
+    },
+    {
+      "id": "std",
+      "name": "Standart arena",
+      "description": "Yumshoq koʻk-binafsha maydon.",
+      "price": 0,
+      "rankRequired": 0,
+      "rankReward": false,
+      "preview": "background:linear-gradient(135deg,var(--a1),var(--a3))"
+    },
+    {
+      "id": "fire",
+      "name": "Olov arenasi",
+      "description": "Qizil maydon, atrofida lovullab yonayotgan olov ramka.",
+      "price": 2000,
+      "rankRequired": 0,
+      "rankReward": false,
+      "preview": "background:linear-gradient(135deg,hsl(2 75% 30%),hsl(18 90% 42%));box-shadow:0 0 16px hsl(20 100% 55%),inset 0 0 14px hsl(38 100% 58%)"
+    },
+    {
+      "id": "rank-1",
+      "name": "Uchqun maydoni",
+      "description": "1-rank · Uchqun. 10 Total bilan ochiladi.",
+      "price": 0,
+      "rankRequired": 1,
+      "rankReward": true,
+      "preview": "background:radial-gradient(ellipse at 50% 30%,#adbdd244,transparent 60%),linear-gradient(145deg,#19273a,#43536b);border:1px solid #adbdd266"
+    },
+    {
+      "id": "rank-2",
+      "name": "Po‘lat qal’a",
+      "description": "2-rank · Po‘lat iroda. 100 Total bilan ochiladi.",
+      "price": 0,
+      "rankRequired": 2,
+      "rankReward": true,
+      "preview": "background:radial-gradient(ellipse at 50% 30%,#7cb9b144,transparent 60%),linear-gradient(145deg,#112b33,#28545d);border:1px solid #7cb9b166"
+    },
+    {
+      "id": "rank-3",
+      "name": "Dovul vodiysi",
+      "description": "3-rank · Dovul ustasi. 400 Total bilan ochiladi.",
+      "price": 0,
+      "rankRequired": 3,
+      "rankReward": true,
+      "preview": "background:radial-gradient(ellipse at 50% 30%,#9ec9e844,transparent 60%),linear-gradient(145deg,#112941,#325d7b);border:1px solid #9ec9e866"
+    },
+    {
+      "id": "rank-4",
+      "name": "Yulduz maqbarasi",
+      "description": "4-rank · Yulduz qo‘riqchisi. 1 000 Total bilan ochiladi.",
+      "price": 0,
+      "rankRequired": 4,
+      "rankReward": true,
+      "preview": "background:radial-gradient(ellipse at 50% 30%,#c4afe744,transparent 60%),linear-gradient(145deg,#171c3c,#47416d);border:1px solid #c4afe766"
+    },
+    {
+      "id": "rank-5",
+      "name": "Samoviy saroy",
+      "description": "5-rank · Samoviy hukmdor. 4 000 Total bilan ochiladi.",
+      "price": 0,
+      "rankRequired": 5,
+      "rankReward": true,
+      "preview": "background:radial-gradient(ellipse at 50% 30%,#dfcda044,transparent 60%),linear-gradient(145deg,#1a2948,#4b5477);border:1px solid #dfcda066"
+    },
+    {
+      "id": "rank-6",
+      "name": "Abadiyat ufqi",
+      "description": "6-rank · Abadiyat sohibi. 10 000 Total bilan ochiladi.",
+      "price": 0,
+      "rankRequired": 6,
+      "rankReward": true,
+      "preview": "background:radial-gradient(ellipse at 50% 30%,#b1d4df44,transparent 60%),linear-gradient(145deg,#0a2033,#264961);border:1px solid #b1d4df66"
+    },
+    {
+      "id": "rank-7",
+      "name": "Toj sukunati",
+      "description": "7-rank · Total tojdori. 100 000 Total bilan ochiladi.",
+      "price": 0,
+      "rankRequired": 7,
+      "rankReward": true,
+      "preview": "background:radial-gradient(ellipse at 50% 30%,#d5c6a344,transparent 60%),linear-gradient(145deg,#101820,#283a48);border:1px solid #d5c6a366"
+    }
+  ]
+}

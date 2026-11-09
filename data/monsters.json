@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "name": "Anime Arena catalogue",
+    "version": 1,
+    "extractedAt": "2026-11-07T15:54:07.448Z",
+    "source": "C:\\Users\\PC\\OneDrive\\Desktop\\anime-arena2.html",
+    "sourceBytes": 473426,
+    "counts": {
+      "heroes": 124,
+      "purchasableHeroes": 122,
+      "tiers": 7,
+      "ranks": 7,
+      "maps": 10,
+      "monsters": 12
+    },
+    "kind": "monsters"
+  },
+  "monsters": [
+    {
+      "name": "Goblin",
+      "hue": 105,
+      "stats": {
+        "hp": 240,
+        "atk": 35,
+        "def": 30,
+        "spd": 12,
+        "per": 10,
+        "reg": 0
+      },
+      "weapon": {
+        "type": "Qilich",
+        "typeIndex": 0,
+        "length": 0.9,
+        "arc": 100,
+        "swing": 1.1
+      },
+      "abilities": [
+        "b"
+      ]
+    },
+    {
+      "name": "Boʻri",
+      "hue": 30,
+      "stats": {
+        "hp": 280,
+        "atk": 40,
+        "def": 30,
+        "spd": 14,
+        "per": 12,
+        "reg": 0
+      },
+      "weapon": {
+        "type": "Nayza",
+        "typeIndex": 2,
+        "length": 0.8,
+        "arc": 90,
+        "swing": 0.9
+      },
+      "abilities": [
+        "l"
+      ]
+    },
+    {
+      "name": "Skelet",
+      "hue": 60,
+      "stats": {
+        "hp": 320,
+        "atk": 45,
+        "def": 40,
+        "spd": 10,
+        "per": 10,
+        "reg": 0
+      },
+      "weapon": {
+        "type": "Qilich",
+        "typeIndex": 0,
+        "length": 1.1,
+        "arc": 110,
+        "swing": 1.2
+      },
+      "abilities": [
+        "b"
+      ]
+    },
+    {
+      "name": "Ork",
+      "hue": 140,
+      "stats": {
+        "hp": 520,
+        "atk": 55,
+        "def": 50,
+        "spd": 9,
+        "per": 8,
+        "reg": 0
+      },
+      "weapon": {
+        "type": "Gurzi",
+        "typeIndex": 1,
+        "length": 1.1,
+        "arc": 120,
+        "swing": 1.4
+      },
+      "abilities": [
+        "s"
+      ]
+    },
+    {
+      "name": "Kaltakesak",
+      "hue": 160,
+      "stats": {
+        "hp": 420,
+        "atk": 55,
+        "def": 45,
+        "spd": 12,
+        "per": 12,
+        "reg": 0
+      },
+      "weapon": {
+        "type": "Nayza",
+        "typeIndex": 2,
+        "length": 1.3,
+        "arc": 70,
+        "swing": 1
+      },
+      "abilities": [
+        "l"
+      ]
+    },
+    {
+      "name": "Qaroqchi",
+      "hue": 15,
+      "stats": {
+        "hp": 480,
+        "atk": 65,
+        "def": 55,
+        "spd": 11,
+        "per": 11,
+        "reg": 0
+      },
+      "weapon": {
+        "type": "Qilich",
+        "typeIndex": 0,
+        "length": 1.2,
+        "arc": 110,
+        "swing": 1.1
+      },
+      "abilities": [
+        "b",
+        "l"
+      ]
+    },
+    {
+      "name": "Ghul",
+      "hue": 280,
+      "stats": {
+        "hp": 600,
+        "atk": 70,
+        "def": 60,
+        "spd": 10,
+        "per": 9,
+        "reg": 1
+      },
+      "weapon": {
+        "type": "Nayza",
+        "typeIndex": 2,
+        "length": 0.9,
+        "arc": 100,
+        "swing": 1
+      },
+      "abilities": [
+        "b",
+        "s"
+      ]
+    },
+    {
+      "name": "Troll",
+      "hue": 90,
+      "stats": {
+        "hp": 900,
+        "atk": 80,
+        "def": 70,
+        "spd": 8,
+        "per": 8,
+        "reg": 2
+      },
+      "weapon": {
+        "type": "Gurzi",
+        "typeIndex": 1,
+        "length": 1.4,
+        "arc": 130,
+        "swing": 1.5
+      },
+      "abilities": [
+        "s"
+      ]
+    },
+    {
+      "name": "Minotavr",
+      "hue": 20,
+      "stats": {
+        "hp": 800,
+        "atk": 95,
+        "def": 80,
+        "spd": 10,
+        "per": 10,
+        "reg": 0
+      },
+      "weapon": {
+        "type": "Gurzi",
+        "typeIndex": 1,
+        "length": 1.4,
+        "arc": 130,
+        "swing": 1.3
+      },
+      "abilities": [
+        "s",
+        "l"
+      ]
+    },
+    {
+      "name": "Qora ritsar",
+      "hue": 240,
+      "stats": {
+        "hp": 900,
+        "atk": 100,
+        "def": 100,
+        "spd": 10,
+        "per": 11,
+        "reg": 0
+      },
+      "weapon": {
+        "type": "Qilich",
+        "typeIndex": 0,
+        "length": 1.4,
+        "arc": 120,
+        "swing": 1.2
+      },
+      "abilities": [
+        "b",
+        "l"
+      ]
+    },
+    {
+      "name": "Ajdarcha",
+      "hue": 5,
+      "stats": {
+        "hp": 1000,
+        "atk": 110,
+        "def": 90,
+        "spd": 12,
+        "per": 12,
+        "reg": 1
+      },
+      "weapon": {
+        "type": "Nayza",
+        "typeIndex": 2,
+        "length": 1.5,
+        "arc": 100,
+        "swing": 1.1
+      },
+      "abilities": [
+        "s",
+        "l"
+      ]
+    },
+    {
+      "name": "Iblis",
+      "hue": 335,
+      "stats": {
+        "hp": 1200,
+        "atk": 130,
+        "def": 110,
+        "spd": 11,
+        "per": 12,
+        "reg": 2
+      },
+      "weapon": {
+        "type": "Qilich",
+        "typeIndex": 0,
+        "length": 1.6,
+        "arc": 130,
+        "swing": 1.2
+      },
+      "abilities": [
+        "b",
+        "s",
+        "l"
+      ]
+    }
+  ]
+}

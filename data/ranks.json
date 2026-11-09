@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "name": "Anime Arena catalogue",
+    "version": 1,
+    "extractedAt": "2026-11-07T15:54:07.448Z",
+    "source": "C:\\Users\\PC\\OneDrive\\Desktop\\anime-arena2.html",
+    "sourceBytes": 473426,
+    "counts": {
+      "heroes": 124,
+      "purchasableHeroes": 122,
+      "tiers": 7,
+      "ranks": 7,
+      "maps": 10,
+      "monsters": 12
+    },
+    "kind": "ranks"
+  },
+  "ranks": [
+    {
+      "level": 1,
+      "totalRequired": 10,
+      "name": "Uchqun",
+      "color": "#7d8fa9",
+      "mapName": "Uchqun maydoni",
+      "palette": [
+        "#19273a",
+        "#43536b",
+        "#adbdd2"
+      ],
+      "totalMultiplier": 1
+    },
+    {
+      "level": 2,
+      "totalRequired": 100,
+      "name": "Po‘lat iroda",
+      "color": "#479a86",
+      "mapName": "Po‘lat qal’a",
+      "palette": [
+        "#112b33",
+        "#28545d",
+        "#7cb9b1"
+      ],
+      "totalMultiplier": 1.025
+    },
+    {
+      "level": 3,
+      "totalRequired": 400,
+      "name": "Dovul ustasi",
+      "color": "#548dca",
+      "mapName": "Dovul vodiysi",
+      "palette": [
+        "#112941",
+        "#325d7b",
+        "#9ec9e8"
+      ],
+      "totalMultiplier": 1.05
+    },
+    {
+      "level": 4,
+      "totalRequired": 1000,
+      "name": "Yulduz qo‘riqchisi",
+      "color": "#9978c9",
+      "mapName": "Yulduz maqbarasi",
+      "palette": [
+        "#171c3c",
+        "#47416d",
+        "#c4afe7"
+      ],
+      "totalMultiplier": 1.075
+    },
+    {
+      "level": 5,
+      "totalRequired": 4000,
+      "name": "Samoviy hukmdor",
+      "color": "#b28b3d",
+      "mapName": "Samoviy saroy",
+      "palette": [
+        "#1a2948",
+        "#4b5477",
+        "#dfcda0"
+      ],
+      "totalMultiplier": 1.1
+    },
+    {
+      "level": 6,
+      "totalRequired": 10000,
+      "name": "Abadiyat sohibi",
+      "color": "#538d9f",
+      "mapName": "Abadiyat ufqi",
+      "palette": [
+        "#0a2033",
+        "#264961",
+        "#b1d4df"
+      ],
+      "totalMultiplier": 1.125
+    },
+    {
+      "level": 7,
+      "totalRequired": 100000,
+      "name": "Total tojdori",
+      "color": "#b69a60",
+      "mapName": "Toj sukunati",
+      "palette": [
+        "#101820",
+        "#283a48",
+        "#d5c6a3"
+      ],
+      "totalMultiplier": 1.15
+    }
+  ]
+}

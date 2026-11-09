@@ -1,0 +1,16 @@
+{
+  "name": "anime-arena-top-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Workers + D1 deployment of Anime Arena Top",
+  "scripts": {
+    "dev": "wrangler dev --local --port 8788",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 execute anime-arena-db --local --file=schema.sql",
+    "db:remote": "wrangler d1 execute anime-arena-db --remote --file=schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.158.0"
+  }
+}
